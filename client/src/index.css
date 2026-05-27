@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  font-family: 'Inter', 'Outfit', system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100;
+}
+
+::selection {
+  background: rgba(236, 72, 153, 0.4);
+  color: #f8fafc;
+}
+
+button,
+input,
+textarea,
+select {
+  @apply font-sans;
+}
+
+.fade-in-up {
+  animation: fade 0.9s ease-out both;
+}
+
+.glass-card {
+  background: rgba(15, 23, 42, 0.64);
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
