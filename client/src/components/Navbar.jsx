@@ -48,7 +48,7 @@ const Navbar = () => {
                 <button
                   type="button"
                   onClick={() => navigate('/admin/dashboard')}
-                  className="inline-flex items-center gap-2 rounded-full bg-brand-purple px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-darkpurple"
+                  className="inline-flex items-center gap-2 rounded-full bg-brand-purple px-4 py-2 text-sm font-semibold text-white transition-colors duration-200 hover:bg-brand-darkpurple focus:outline-none focus:ring-2 focus:ring-brand-gold focus:ring-offset-2 focus:ring-offset-slate-950"
                 >
                   <ShieldCheck size={16} /> Admin
                 </button>
