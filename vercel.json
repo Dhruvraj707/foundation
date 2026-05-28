@@ -9,8 +9,8 @@
       }
     }
   ],
-  "installCommand": "npm install && npm --prefix client install",
-  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "buildCommand": "cd client && npm install && npm run build",
   "routes": [
     {
       "src": "/(.*)",
