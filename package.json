@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "npx concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
-    "start": "npx concurrently \"npm start --prefix server\" \"npm run preview --prefix client\""
+    "start": "npx concurrently \"npm start --prefix server\" \"npm run preview --prefix client\"",
+    "build": "npm --prefix client run build"
   },
   "devDependencies": {
     "concurrently": "^8.2.0"
